@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; 
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 141, 188, 0.423);
+    color: rgba(52, 154, 255, 0.284);
+    padding: 10px;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgba(49, 152, 231, 0.414);
+}
+
+.header {
+    background: url('https://wowslider.com/sliders/demo-27/data1/images/action21892.jpg') no-repeat center center/cover;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.header button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #28a745; /* Green button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header button:hover {
+    background-color: #d72020;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center; 
+    background-color: rgb(51, 103, 177); 
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: background-color 0.3̦s; 
+}
+
+section.scrolled {
+    background-color: ̦̦#000000; 
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+footer p {
+    margin: 0;
+}
+}
